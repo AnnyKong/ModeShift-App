@@ -85,6 +85,7 @@ hr {
 
 #top-menu-bar {
   justify-content: center;
+  flex-wrap: wrap;
   background-image: linear-gradient(to right, rgba(70,130,180, 1), rgba(70,130,180, 0.75), rgba(70,130,180, 1));
 }
 
