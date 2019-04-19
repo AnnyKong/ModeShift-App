@@ -1,0 +1,71 @@
+<!--
+Progress on 04/18: dynamic menu bar added
+
+Contributor: Xinrong Zhao
+-->
+<!DOCTYPE html>
+<!--
+Clients are free to change whatever they want
+-->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TODO: rename the title</title>
+
+    <!-- Linked to dummy css file -->
+    <link rel="stylesheet" type="text/css" href="styleframe.css" />
+
+    <!-- Linked to dummy js file -->
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="page-title">HEADER: This is the page about</h1>
+      <hr />
+      <div id="top-menu">
+        <button id="top-menu-drop-button">
+          <img id="top-menu-drop-button-image" src="img/down.png" alt="image-angle-double-down-button"/>
+        </button>
+        <button id="top-menu-up-button">
+          <img id="top-menu-up-button-image" src="img/up.png" alt="image-angle-double-up-button"/>
+        </button>
+        <div id="top-menu-bar">
+          <a class="top-menu-content" href="pages/1.html">content</a>
+          <a class="top-menu-content" href="pages/1.html">content</a>
+          <a class="top-menu-content" href="pages/1.html">content</a>
+          <a class="top-menu-content" href="pages/1.html">content</a>
+          <a class="top-menu-content" href="pages/1.html">content</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <p>
+        I won't tell you the page width is only 80%, and I set it to the middle which I feel is pretty but you can change it if you want.
+        <br />
+        Deleting elements are simple, you can just set its css property "display" to be "none", and for sure you can set it back to "block" by javacript if you wanna see it again.
+        <br />
+        A good thing to know is that you can also set "display" to be "flex" for any container (i.e. elements that contains other elements, such as &lt;div&rt;), and you can get a bunch of benefit from doing that. For example, I can do
+      </p>
+
+      <h2>Side-by-side class</h2>
+      <section id="example" class="side-by-side">
+        <p>I love salt</p>
+        <p>but I also love sugar</p>
+      </section>
+
+      <h2>Try the drop down button!!</h2>
+    </main>
+    <footer class="side-by-side">
+      <section id="footer-left">
+        <p>WE</p>
+      </section>
+      <section id="footer-center">
+        <img src="img/lion_head.png" alt="lion head" />
+        <img src="img/cat_head.jpg" alt="cat head" />
+      </section>
+      <section id="footer-right">
+        <p>MARRIED!</p>
+      </section>
+    </footer>
+  </body>
+</html>

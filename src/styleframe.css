@@ -1,0 +1,106 @@
+/*
+ * This stylesheet contains some basics for web design
+ * clients can change whatever they want to adapt to their own websites
+ * 
+ * Contributor: Xinrong Zhao
+*/
+
+/*
+ * import extra fonts
+ * @from fonts.google.com
+ * @usage font-family: 'Roboto', sans-serif;
+ */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*********************************************
+** META
+**********************************************/
+.side-by-side {
+  display: flex;
+}
+
+/*********************************************
+** MAIN
+**********************************************/
+body {
+  width: 100%;
+  margin: auto; /* centered horizontally */
+  background-color: #D0E0FE;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  position: fixed;
+}
+
+footer {
+  max-height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
+header, footer {
+  width: 100%;
+  /* @ 1 line(s) above
+   * width is not inherited?
+   */
+  text-align: center;
+  /* @ 1 line(s) above
+   * align text by center
+   */
+  color: white;
+  background-image: linear-gradient(to right, rgba(70,130,180, 1), rgba(70,130,180, 0.95), rgba(70,130,180, 1));
+}
+
+hr {
+  border: 0px;
+  height: 1px;
+  margin: 2px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+#top-menu-drop-button, #top-menu-up-button {
+  width: 100%;
+  height: 25px;
+  background-color: rgba(0,0,0,0);
+  border-style: none;
+}
+
+#top-menu-drop-button-image, #top-menu-up-button-image {
+  margin: auto;
+  max-height: 25px;
+}
+
+#top-menu-up-button, #top-menu-up-button-image, #top-menu-bar {
+  display: none;
+}
+
+#top-menu-bar {
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: rgb(70,130,180);
+}
+
+.top-menu-content:link, .top-menu-content:visited {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.top-menu-content:hover, .top-menu-content:active {
+  text-decoration: underline;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+#example {
+  justify-content: space-between;
+}
