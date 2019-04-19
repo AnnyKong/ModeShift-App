@@ -31,23 +31,15 @@ body {
 
 header {
   position: fixed;
-  height: 110px;
-  margin-top: -110px;
-  /* @ 3 line(s) above
-   * fixed the header bar on the top
-   * also need to shift main area down by height of header
-   */
 }
 
 footer {
-  height: 50px;
+  max-height: 50px;
   justify-content: center;
+  align-items: center;
 }
 
 footer img {
-  height: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
   vertical-align: middle;
 }
 
@@ -57,16 +49,15 @@ header, footer {
    * width is not inherited?
    */
   text-align: center;
-  /* @ 2 line(s) above
+  /* @ 1 line(s) above
    * align text by center
-   * align elements middle height around text
    */
   color: white;
-  background-image: linear-gradient(to right, rgba(70,130,180, 1), rgba(70,130,180, 0.75), rgba(70,130,180, 1));
+  background-image: linear-gradient(to right, rgba(70,130,180, 1), rgba(70,130,180, 0.95), rgba(70,130,180, 1));
 }
 
 hr {
-  border: 0;
+  border: 0px;
   height: 1px;
   margin: 2px;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
@@ -79,14 +70,19 @@ hr {
   border-style: none;
 }
 
+#top-menu-drop-button-image, #top-menu-up-button-image {
+  margin: auto;
+  max-height: 25px;
+}
+
 #top-menu-up-button, #top-menu-up-button-image, #top-menu-bar {
   display: none;
 }
 
 #top-menu-bar {
-  justify-content: center;
   flex-wrap: wrap;
-  background-image: linear-gradient(to right, rgba(70,130,180, 1), rgba(70,130,180, 0.75), rgba(70,130,180, 1));
+  justify-content: center;
+  background-image: rgb(70,130,180);
 }
 
 .top-menu-content:link, .top-menu-content:visited {
@@ -103,7 +99,6 @@ main {
   width: 80%;
   margin: auto;
   padding-top: 10px;
-  margin-top: 110px;
 }
 
 #example {
