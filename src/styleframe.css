@@ -1,0 +1,110 @@
+/*
+ * This stylesheet contains some basics for web design
+ * clients can change whatever they want to adapt to their own websites
+ * 
+ * Contributor: Xinrong Zhao
+*/
+
+/*
+ * import extra fonts
+ * @from fonts.google.com
+ * @usage font-family: 'Roboto', sans-serif;
+ */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*********************************************
+** META
+**********************************************/
+.side-by-side {
+  display: flex;
+}
+
+/*********************************************
+** MAIN
+**********************************************/
+body {
+  width: 100%;
+  margin: auto; /* centered horizontally */
+  background-color: #D0E0FE;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  position: fixed;
+  height: 110px;
+  margin-top: -110px;
+  /* @ 3 line(s) above
+   * fixed the header bar on the top
+   * also need to shift main area down by height of header
+   */
+}
+
+footer {
+  height: 50px;
+  justify-content: center;
+}
+
+footer img {
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+header, footer {
+  width: 100%;
+  /* @ 1 line(s) above
+   * width is not inherited?
+   */
+  text-align: center;
+  /* @ 2 line(s) above
+   * align text by center
+   * align elements middle height around text
+   */
+  color: white;
+  background-image: linear-gradient(to right, rgba(70,130,180, 1), rgba(70,130,180, 0.75), rgba(70,130,180, 1));
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 2px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+#top-menu-drop-button, #top-menu-up-button {
+  width: 100%;
+  height: 25px;
+  background-color: rgba(0,0,0,0);
+  border-style: none;
+}
+
+#top-menu-up-button, #top-menu-up-button-image, #top-menu-bar {
+  display: none;
+}
+
+#top-menu-bar {
+  justify-content: center;
+  background-image: linear-gradient(to right, rgba(70,130,180, 1), rgba(70,130,180, 0.75), rgba(70,130,180, 1));
+}
+
+.top-menu-content:link, .top-menu-content:visited {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.top-menu-content:hover, .top-menu-content:active {
+  text-decoration: underline;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding-top: 10px;
+  margin-top: 110px;
+}
+
+#example {
+  justify-content: space-between;
+}
