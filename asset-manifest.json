@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Modeshift/static/css/main.07b611b6.chunk.css",
+    "main.js": "/Modeshift/static/js/main.455e4aa7.chunk.js",
+    "main.js.map": "/Modeshift/static/js/main.455e4aa7.chunk.js.map",
+    "runtime~main.js": "/Modeshift/static/js/runtime~main.84f471f7.js",
+    "runtime~main.js.map": "/Modeshift/static/js/runtime~main.84f471f7.js.map",
+    "static/js/2.98dcc9dd.chunk.js": "/Modeshift/static/js/2.98dcc9dd.chunk.js",
+    "static/js/2.98dcc9dd.chunk.js.map": "/Modeshift/static/js/2.98dcc9dd.chunk.js.map",
+    "index.html": "/Modeshift/index.html",
+    "precache-manifest.2bda210d9096ec74e5258d225db92d70.js": "/Modeshift/precache-manifest.2bda210d9096ec74e5258d225db92d70.js",
+    "service-worker.js": "/Modeshift/service-worker.js",
+    "static/css/main.07b611b6.chunk.css.map": "/Modeshift/static/css/main.07b611b6.chunk.css.map"
+  }
+}
