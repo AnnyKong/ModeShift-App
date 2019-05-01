@@ -1,9 +1,3 @@
-html, body { margin:0; height: 100%; }
-body {display: flex; align-items: center; justify-content: center; background: #F1F1F1;}
-body > .component, body > .frame { left: auto; right: auto; top: auto; bottom:auto;}
-body > .frame {background: rgb(255, 255, 255);}
-
-
 /* Live update */
 
 #n52_186 {
@@ -13,7 +7,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	background: rgb(255, 255, 255);
 }
 
-/* Rectangle 2.1 */
+/* panel */
 
 #n52_285 {
 	background: rgb(249, 249, 249);
@@ -21,7 +15,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	height: 541px;
 }
 
-/* Rectangle 3 */
+/* button */
 
 #n52_189 {
 	background: rgb(33, 95, 255);
@@ -32,7 +26,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	height: 33px;
 }
 
-/* SUBMIT */
+/* text */
 
 #n52_188 {
 	font-family: Roboto;
@@ -50,7 +44,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	top: 470px;
 }
 
-/* Rectangle 2 */
+/* input-box */
 
 #n52_190 {
 	background: rgb(228, 228, 228);
@@ -60,7 +54,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	height: 32px;
 }
 
-/* Enter phone number */
+/* hint */
 
 #n52_191 {
 	font-family: Roboto;
@@ -78,7 +72,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	top: 470px;
 }
 
-/* Sign up for text alerts of this incident */
+/* subscribe-instruction */
 
 #n52_192 {
 	font-family: Roboto;
@@ -96,7 +90,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	top: 438px;
 }
 
-/* All lanes of NB I-5 at the West Seattle Bridge are stopped due to this collision. */
+/* content */
 
 #n52_195 {
 	font-family: Roboto;
@@ -114,7 +108,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	top: 254px;
 }
 
-/* 12:58 PM */
+/* time */
 
 #n52_196 {
 	font-family: Roboto;
@@ -141,7 +135,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	top: 233px;
 }
 
-/* All lanes of WB I-90 at Rainier Ave S are now closed due to this collision. Traffic must exit at Rainier Ave S. */
+/* content */
 
 #n52_199 {
 	font-family: Roboto;
@@ -159,7 +153,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	top: 326px;
 }
 
-/* Latest update 1:03 PM */
+/* time */
 
 #n52_200 {
 	font-family: Roboto;
@@ -196,7 +190,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	top: 305px;
 }
 
-/* The crash involving a tanker and two other vehicles happened in the southbound lanes of the I-5 collector-distributor lanes to I-90 */
+/* content */
 
 #n52_204 {
 	font-family: Roboto;
@@ -214,7 +208,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	top: 165px;
 }
 
-/* 12:43 PM */
+/* time */
 
 #n52_205 {
 	font-family: Roboto;
@@ -251,7 +245,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	top: 144px;
 }
 
-/* Rectangle 2 */
+/* header-background */
 
 #n52_212 {
 	background: rgb(228, 228, 228);
@@ -259,7 +253,25 @@ body > .frame {background: rgb(255, 255, 255);}
 	height: 82px;
 }
 
-/* Rectangle 4 */
+/* I-90 Tanker Crash */
+
+#n52_214 {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 160px;
+	transform: translate(0px, 0px);
+	line-height: 18.75px;
+	height: 22px;
+	left: 144px;
+	top: 23px;
+}
+
+/* live-background */
 
 #n52_216 {
 	background: rgb(196, 196, 196);
@@ -288,25 +300,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	top: 26px;
 }
 
-/* I-90 Tanker Crash */
-
-#n52_214 {
-	font-family: Roboto;
-	font-size: 16px;
-	font-weight: 700;
-	letter-spacing: 0px;
-	color: rgb(0, 0, 0);
-	vertical-align: middle;
-	justify-content: flex-start;
-	width: 160px;
-	transform: translate(0px, 0px);
-	line-height: 18.75px;
-	height: 22px;
-	left: 144px;
-	top: 23px;
-}
-
-/* Rectangle 3 */
+/* selected */
 
 #n52_221 {
 	background: rgb(0, 0, 0);
@@ -316,7 +310,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	height: 2px;
 }
 
-/* Live updates */
+/* live-updates */
 
 #n52_218 {
 	font-family: Roboto;
@@ -334,7 +328,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	top: 57px;
 }
 
-/* Map */
+/* live-map */
 
 #n52_219 {
 	font-family: Roboto;
@@ -352,7 +346,7 @@ body > .frame {background: rgb(255, 255, 255);}
 	top: 57px;
 }
 
-/* Plan your route */
+/* plan-your-route */
 
 #n52_220 {
 	font-family: Roboto;
