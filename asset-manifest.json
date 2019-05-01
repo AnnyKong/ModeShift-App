@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ModeShift-App/static/css/main.07b611b6.chunk.css",
-    "main.js": "/ModeShift-App/static/js/main.455e4aa7.chunk.js",
-    "main.js.map": "/ModeShift-App/static/js/main.455e4aa7.chunk.js.map",
-    "runtime~main.js": "/ModeShift-App/static/js/runtime~main.84376521.js",
-    "runtime~main.js.map": "/ModeShift-App/static/js/runtime~main.84376521.js.map",
-    "static/js/2.98dcc9dd.chunk.js": "/ModeShift-App/static/js/2.98dcc9dd.chunk.js",
-    "static/js/2.98dcc9dd.chunk.js.map": "/ModeShift-App/static/js/2.98dcc9dd.chunk.js.map",
-    "index.html": "/ModeShift-App/index.html",
-    "precache-manifest.cd2a4c1a714123df325ee201854d918b.js": "/ModeShift-App/precache-manifest.cd2a4c1a714123df325ee201854d918b.js",
-    "service-worker.js": "/ModeShift-App/service-worker.js",
-    "static/css/main.07b611b6.chunk.css.map": "/ModeShift-App/static/css/main.07b611b6.chunk.css.map"
+    "main.css": "/ModeShift/static/css/main.07b611b6.chunk.css",
+    "main.js": "/ModeShift/static/js/main.455e4aa7.chunk.js",
+    "main.js.map": "/ModeShift/static/js/main.455e4aa7.chunk.js.map",
+    "runtime~main.js": "/ModeShift/static/js/runtime~main.d93cac30.js",
+    "runtime~main.js.map": "/ModeShift/static/js/runtime~main.d93cac30.js.map",
+    "static/js/2.98dcc9dd.chunk.js": "/ModeShift/static/js/2.98dcc9dd.chunk.js",
+    "static/js/2.98dcc9dd.chunk.js.map": "/ModeShift/static/js/2.98dcc9dd.chunk.js.map",
+    "index.html": "/ModeShift/index.html",
+    "precache-manifest.99afa5e42c1c2ac36578450cbdb7df8e.js": "/ModeShift/precache-manifest.99afa5e42c1c2ac36578450cbdb7df8e.js",
+    "service-worker.js": "/ModeShift/service-worker.js",
+    "static/css/main.07b611b6.chunk.css.map": "/ModeShift/static/css/main.07b611b6.chunk.css.map"
   }
 }
