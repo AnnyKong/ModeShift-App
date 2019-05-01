@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Babydummy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="stroked" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Care" sketch:type="MSLayerGroup" transform="translate(-598.000000, -842.000000)" stroke="#ffffff" stroke-width="2" stroke-linejoin="round">
+            <g id="Babydummy" transform="translate(629.111565, 872.456675) rotate(-315.000000) translate(-629.111565, -872.456675) translate(603.111565, 845.956675)" sketch:type="MSShapeGroup">
+                <path d="M21.4226207,23.0960858 L20.8962569,23.0960858 L20.8962569,30.0297745 L31.1037431,30.0297745 L31.1037431,23.0960858 L30.5773793,23.0960858 C34.9340916,21.2968749 38,17.0064781 38,12 C38,5.372583 32.627417,0 26,0 C19.372583,0 14,5.372583 14,12 C14,17.0064781 17.0659084,21.2968749 21.4226207,23.0960858 Z" id="Oval-1093" stroke-linecap="round"></path>
+                <path d="M15.8073104,25.000784 C6.51402505,26.1451744 0,28.8069755 0,31.9079985 C0,36.0534124 11.6405965,39.4139344 26,39.4139344 C40.3594035,39.4139344 52,36.0534124 52,31.9079985 C52,28.8062671 45.4829986,26.1439584 36.1863205,25" id="Oval-1094" stroke-linecap="round"></path>
+                <path d="M26,41 L26,44" id="Line" stroke-linecap="square"></path>
+                <circle id="Oval-1094" stroke-linecap="round" cx="26" cy="49" r="4"></circle>
+                <circle id="Oval-1095" stroke-linecap="round" cx="26" cy="5" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

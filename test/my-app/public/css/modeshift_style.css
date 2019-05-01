@@ -1,0 +1,365 @@
+/* Live update */
+
+#n52_186 {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: rgb(255, 255, 255);
+}
+
+/* panel */
+
+#n52_285 {
+	background: rgb(249, 249, 249);
+	width: 375px;
+	height: 541px;
+}
+
+/* button */
+
+#n52_189 {
+	background: rgb(33, 95, 255);
+	border-radius: 2px;
+	left: 293px;
+	width: 66px;
+	top: 460px;
+	height: 33px;
+}
+
+/* text */
+
+#n52_188 {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: rgb(255, 255, 255);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 45px;
+	transform: translate(0px, 0px);
+	line-height: 14.0625px;
+	height: 15px;
+	left: 304px;
+	top: 470px;
+}
+
+/* input-box */
+
+#n52_190 {
+	background: rgb(228, 228, 228);
+	left: 16px;
+	width: 267px;
+	top: 461px;
+	height: 32px;
+}
+
+/* hint */
+
+#n52_191 {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: rgb(113, 113, 113);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 110px;
+	transform: translate(0px, 0px);
+	line-height: 14.0625px;
+	height: 15px;
+	left: 24px;
+	top: 470px;
+}
+
+/* subscribe-instruction */
+
+#n52_192 {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 201px;
+	transform: translate(0px, 0px);
+	line-height: 14.0625px;
+	height: 15px;
+	left: 16px;
+	top: 438px;
+}
+
+/* content */
+
+#n52_195 {
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 315px;
+	transform: translate(0px, 0px);
+	line-height: 16.4062px;
+	height: 33px;
+	left: 44px;
+	top: 254px;
+}
+
+/* time */
+
+#n52_196 {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: rgb(199, 199, 199);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 53px;
+	transform: translate(0px, 0px);
+	line-height: 14.0625px;
+	height: 15px;
+	left: 44px;
+	top: 235px;
+}
+
+/* Ellipse */
+
+#n52_197 {
+	width: 16px;
+	height: 16px;
+	left: 16px;
+	top: 233px;
+}
+
+/* content */
+
+#n52_199 {
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 315px;
+	transform: translate(0px, 0px);
+	line-height: 16.4062px;
+	height: 50px;
+	left: 44px;
+	top: 326px;
+}
+
+/* time */
+
+#n52_200 {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: rgb(199, 199, 199);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 123px;
+	transform: translate(0px, 0px);
+	line-height: 14.0625px;
+	height: 15px;
+	left: 44px;
+	top: 307px;
+}
+
+/* Rectangle */
+
+#n52_201 {
+	background: rgb(207, 207, 207);
+	left: 23.5px;
+	width: 1px;
+	top: 249px;
+	height: 56px;
+}
+
+/* Ellipse */
+
+#n52_202 {
+	width: 16px;
+	height: 16px;
+	left: 16px;
+	top: 305px;
+}
+
+/* content */
+
+#n52_204 {
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 315px;
+	transform: translate(0px, 0px);
+	line-height: 16.4062px;
+	height: 50px;
+	left: 44px;
+	top: 165px;
+}
+
+/* time */
+
+#n52_205 {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: rgb(199, 199, 199);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 53px;
+	transform: translate(0px, 0px);
+	line-height: 14.0625px;
+	height: 15px;
+	left: 44px;
+	top: 146px;
+}
+
+/* Rectangle */
+
+#n52_206 {
+	background: rgb(207, 207, 207);
+	left: 23.5px;
+	width: 1px;
+	top: 160px;
+	height: 73px;
+}
+
+/* Ellipse */
+
+#n52_207 {
+	width: 16px;
+	height: 16px;
+	left: 16px;
+	top: 144px;
+}
+
+/* header-background */
+
+#n52_212 {
+	background: rgb(228, 228, 228);
+	width: 375px;
+	height: 82px;
+}
+
+/* I-90 Tanker Crash */
+
+#n52_214 {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 160px;
+	transform: translate(0px, 0px);
+	line-height: 18.75px;
+	height: 22px;
+	left: 144px;
+	top: 23px;
+}
+
+/* live-background */
+
+#n52_216 {
+	background: rgb(196, 196, 196);
+	border-radius: 4px;
+	left: 103px;
+	width: 33px;
+	top: 23px;
+	height: 18px;
+}
+
+/* LIVE */
+
+#n52_217 {
+	font-family: Roboto;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: 0.6px;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 23px;
+	transform: translate(0px, 0px);
+	line-height: 11.7188px;
+	height: 12px;
+	left: 108px;
+	top: 26px;
+}
+
+/* selected */
+
+#n52_221 {
+	background: rgb(0, 0, 0);
+	left: 51px;
+	width: 74px;
+	top: 80px;
+	height: 2px;
+}
+
+/* live-updates */
+
+#n52_218 {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 68px;
+	transform: translate(0px, 0px);
+	line-height: 14.0625px;
+	height: 16px;
+	left: 54px;
+	top: 57px;
+}
+
+/* live-map */
+
+#n52_219 {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 24px;
+	transform: translate(0px, 0px);
+	line-height: 14.0625px;
+	height: 14px;
+	left: 176px;
+	top: 57px;
+}
+
+/* plan-your-route */
+
+#n52_220 {
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: rgb(0, 0, 0);
+	vertical-align: middle;
+	justify-content: flex-start;
+	width: 81px;
+	transform: translate(0px, 0px);
+	line-height: 14.0625px;
+	height: 16px;
+	left: 247px;
+	top: 57px;
+}

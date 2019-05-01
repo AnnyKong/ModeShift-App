@@ -1,3 +1,3 @@
 $(function(){
-    $("#nav-placeholder").load("modeshift_nav.html");
-})
+    $("#n52_211").load("modeshift_nav.html");
+  });
