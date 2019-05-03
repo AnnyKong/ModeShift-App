@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/ModeShift-App/precache-manifest.cd2a4c1a714123df325ee201854d918b.js"
+  "/ModeShift-App/precache-manifest.08e70abd32383c3e2be2b6681233ca9d.js"
 );
 
 self.addEventListener('message', (event) => {
