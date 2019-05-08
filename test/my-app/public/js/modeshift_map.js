@@ -13,7 +13,9 @@ function initMap() {
     var center = new google.maps.LatLng(47.6362, -122.3321);
     var mapOptions = {
         center: center,
-        zoom: 13
+        zoom: 13,
+        mapTypeControl: false,
+        streetViewControl: false
     };
     // Create a map and center it
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
