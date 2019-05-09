@@ -1,4 +1,9 @@
 # ModeShift-App
+## Team website
+https://annykong.github.io/ModeShift-App/
+
+We are still constantly updating. Our implementation can be found under the prototype section.
+
 ## Map testing: 
 https://annykong.github.io/test-map/
 
