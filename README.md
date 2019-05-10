@@ -7,8 +7,7 @@ We are still constantly updating. Our implementation can be found under the prot
 ## Map testing: 
 https://annykong.github.io/test-map/
 
-### Instructions to view the map testing
-p.s. It requires a GoogleMap API key to work.
+### Instructions to use your GoogleMap API key
 - Get your own key [here (Get Google API Key)](https://developers.google.com/maps/documentation/javascript/get-api-key).
 - And then, in `test-map/docs/index.html`, substitute `replacekey` in the code below with the API key you got from the previous step.
   ```

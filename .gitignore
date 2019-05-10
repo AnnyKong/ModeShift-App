@@ -1,3 +1,6 @@
+# api file
+.env
+
 # IDE settings
 .idea
 *.iml
