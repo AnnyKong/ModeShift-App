@@ -15,7 +15,8 @@ function initMap() {
         center: center,
         zoom: 13,
         mapTypeControl: false,
-        streetViewControl: false
+        streetViewControl: false,
+        fullscreenControl: false
     };
     // Create a map and center it
     map = new google.maps.Map(document.getElementById('map'), mapOptions);
