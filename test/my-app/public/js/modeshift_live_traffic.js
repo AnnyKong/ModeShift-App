@@ -48,8 +48,13 @@ function initMap() {
     {lat: 47.589951, lng: -122.285939},
     {lat: 47.589268, lng: -122.254213}
   ];
-  addLine(flightPlanCoordinates, map);
-  addLine(flightPlanCoordinates2, map);
+  var flightPlanCoordinates3 = [
+    {lat: 47.589268, lng: -122.254213},
+    {lat: 47.589951, lng: -122.285939}
+    
+  ];
+  addLine(flightPlanCoordinates, map, '#FF0000');
+  addLine(flightPlanCoordinates2, map, '#FF0000');
   addCircle(center, 3000, map);
   addMarker(center, map);
 }
@@ -68,11 +73,11 @@ function addCircle(center, radius, map) {
   });
 }
 
-function addLine(flightPlanCoordinates, map) {
+function addLine(flightPlanCoordinates, map, color) {
   var flightPath = new google.maps.Polyline({
     path: flightPlanCoordinates,
     geodesic: true,
-    strokeColor: '#FF0000',
+    strokeColor: color,
     strokeOpacity: 1.0,
     strokeWeight: 5
   });
@@ -83,10 +88,22 @@ function addLine(flightPlanCoordinates, map) {
 function addMarker(location, map) {
   // Add the marker at the clicked location, and add the next-available label
   // from the array of alphabetical characters.
+  var image = {
+    // url: "https://image.flaticon.com/icons/png/128/179/179386.png",
+    // url: "https://image.flaticon.com/icons/png/128/497/497738.png",
+    url: "images/warning.png",
+    // This marker is 20 pixels wide by 32 pixels high.
+    scaledSize: new google.maps.Size(30, 30),
+    // // The origin for this image is (0, 0).
+    origin: new google.maps.Point(0, 0),
+    // // The anchor for this image is the base of the flagpole at (0, 32).
+    anchor: new google.maps.Point(15, 30)
+  }
   var marker = new google.maps.Marker({
     position: location,
-    label: labels[labelIndex++ % labels.length],
-    map: map
+    // label: labels[labelIndex++ % labels.length],
+    map: map,
+    icon: image
   });
   addInfoWindow(
     "Incident: SeattleTanker, \
@@ -104,73 +121,3 @@ function addInfoWindow(contentString, marker, map) {
   });
 }
 
-
-/**
- * Returns the Popup class.
- *
- * Unfortunately, the Popup class can only be defined after
- * google.maps.OverlayView is defined, when the Maps API is loaded.
- * This function should be called by initMap.
- */
-function createPopupClass() {
-  /**
-   * A customized popup on the map.
-   * @param {!google.maps.LatLng} position
-   * @param {!Element} content The bubble div.
-   * @constructor
-   * @extends {google.maps.OverlayView}
-   */
-  function Popup(position, content) {
-    this.position = position;
-
-    content.classList.add('popup-bubble');
-
-    // This zero-height div is positioned at the bottom of the bubble.
-    var bubbleAnchor = document.createElement('div');
-    bubbleAnchor.classList.add('popup-bubble-anchor');
-    bubbleAnchor.appendChild(content);
-
-    // This zero-height div is positioned at the bottom of the tip.
-    this.containerDiv = document.createElement('div');
-    this.containerDiv.classList.add('popup-container');
-    this.containerDiv.appendChild(bubbleAnchor);
-
-    // Optionally stop clicks, etc., from bubbling up to the map.
-    google.maps.OverlayView.preventMapHitsAndGesturesFrom(this.containerDiv);
-  }
-  // ES5 magic to extend google.maps.OverlayView.
-  Popup.prototype = Object.create(google.maps.OverlayView.prototype);
-
-  /** Called when the popup is added to the map. */
-  Popup.prototype.onAdd = function() {
-    this.getPanes().floatPane.appendChild(this.containerDiv);
-  };
-
-  /** Called when the popup is removed from the map. */
-  Popup.prototype.onRemove = function() {
-    if (this.containerDiv.parentElement) {
-      this.containerDiv.parentElement.removeChild(this.containerDiv);
-    }
-  };
-
-  /** Called each frame when the popup needs to draw itself. */
-  Popup.prototype.draw = function() {
-    var divPosition = this.getProjection().fromLatLngToDivPixel(this.position);
-
-    // Hide the popup when it is far out of view.
-    var display =
-        Math.abs(divPosition.x) < 4000 && Math.abs(divPosition.y) < 4000 ?
-        'block' :
-        'none';
-
-    if (display === 'block') {
-      this.containerDiv.style.left = divPosition.x + 'px';
-      this.containerDiv.style.top = divPosition.y + 'px';
-    }
-    if (this.containerDiv.style.display !== display) {
-      this.containerDiv.style.display = display;
-    }
-  };
-
-  return Popup;
-}
