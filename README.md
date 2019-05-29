@@ -1,8 +1,13 @@
 # ModeShift-App
 ## Team website
-https://annykong.github.io/ModeShift-App/
+[Webpage](https://annykong.github.io/ModeShift-App/)  |
+[GitHub Repo](https://github.com/AnnyKong/ModeShift-App)  
+Our Clikcable Demo can be found under the prototype section.
 
-We are still constantly updating. Our implementation can be found under the prototype section.
+##  Demo website
+[Webpage](https://annykong.github.io/uwcapstone-modeshift/)  |
+[GitHub Repo](https://github.com/AnnyKong/uwcapstone-modeshift)
+
 
 ## Map testing: 
 https://annykong.github.io/test-map/
@@ -19,9 +24,3 @@ https://annykong.github.io/test-map/
 ## Figma figure export helper
 https://ui-kit.co/figma2html/
 
-## Missing 
-- project_thumb.png
-- High-fidelity prototype
-- web App
-- marketing plan
-- Technical analysis
