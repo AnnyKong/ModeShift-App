@@ -2,7 +2,7 @@
 ## Team website
 [Webpage](https://annykong.github.io/ModeShift-App/)  |
 [GitHub Repo](https://github.com/AnnyKong/ModeShift-App)  
-Our Clikcable Demo can be found under the prototype section.
+Our Clikcable Demo can be found under the "PROTOTYPE & DEMO" section.
 
 ##  Demo website
 [Webpage](https://annykong.github.io/uwcapstone-modeshift/)  |
