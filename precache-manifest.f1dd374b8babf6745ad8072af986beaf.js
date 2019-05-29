@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed4421c5c1cc771094b02e172bf2ecff",
+    "revision": "50c6d3426a4ff1965a3dc535db9a5cd6",
     "url": "/ModeShift-App/index.html"
   },
   {
