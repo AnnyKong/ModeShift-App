@@ -9,6 +9,13 @@
 [Team GitHub Repo](https://github.com/AnnyKong/ModeShift-App)  
 *Our Clikcable Demo can be found under the "PROTOTYPE & DEMO" section.*
 
+### Implementation Iterations
+- [1st Iteration](https://annykong.wixsite.com/modeshift-19sp)
+- [2nd iteration Code (no server)](https://github.com/AnnyKong/ModeShift-App/commits/master)
+- [2nd iteration Code (with server)](https://github.com/AnnyKong/ModeShift-App/commits/gh-pages)
+- [3rd iteration (Web Design)](https://uwcapstone.webflow.io/)
+- [Current version (Combined Design and functionalities)](https://annykong.github.io/uwcapstone-modeshift/)
+
 ## Our team
 <img src="./team-web/my-app/public/images/Team-members.png" alt="Team members" width="550"/>
 
@@ -98,12 +105,6 @@ p.s. To go back to the Desktop version, just click on the "Toggle device toolbar
 [Map Test](https://annykong.github.io/test-map/) |
 [Map Test Repo](https://github.com/AnnyKong/test-map)
 
-### Iterations
-- [1st Iteration](https://annykong.wixsite.com/modeshift-19sp)
-- [2nd iteration Code (no server)](https://github.com/AnnyKong/ModeShift-App/commits/master)
-- [2nd iteration Code (with server)](https://github.com/AnnyKong/ModeShift-App/commits/gh-pages)
-- [3rd iteration (Web Design)](https://uwcapstone.webflow.io/)
-- [Current version (Combined Design and functionalities)](https://annykong.github.io/uwcapstone-modeshift/)
 
 ### Instructions to use your GoogleMap API key
 - Get your own key [here (Get Google API Key)](https://developers.google.com/maps/documentation/javascript/get-api-key).
