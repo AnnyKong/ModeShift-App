@@ -9,7 +9,7 @@
 [Team GitHub Repo](https://github.com/AnnyKong/ModeShift-App)  
 *Our Clikcable Demo can be found under the "PROTOTYPE & DEMO" section.*
 
-### Implementation Iterations
+### Development Iterations
 - [1st Iteration](https://annykong.wixsite.com/modeshift-19sp)
 - [2nd iteration Code (no server)](https://github.com/AnnyKong/ModeShift-App/commits/master)
 - [2nd iteration Code (with server)](https://github.com/AnnyKong/ModeShift-App/commits/gh-pages)
