@@ -42,9 +42,11 @@
   </head>
   <body>
     <div id="map"></div>
-  <script src="js/modeshift_live_traffic.js"></script>
-  <script  async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlKaV-p25FNLcFqXBHWHHvE3PN4CmixLA&callback=initMap"></script>
-
-  <!-- Local Test only -->
+    <div id="bar">
+      <p class="auto"><input type="text" id="autoc"/></p>
+    </div>
+    <script src="js/modeshift_live_traffic.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlKaV-p25FNLcFqXBHWHHvE3PN4CmixLA&libraries=drawing,places"></script>
 </body>
 </html>

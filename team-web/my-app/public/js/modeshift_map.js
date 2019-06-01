@@ -82,7 +82,7 @@ function draw(map) {
     var center = new google.maps.LatLng(47.590045, -122.270962);
     addLine(flightPlanCoordinates, map, '#FF0000');
     addLine(flightPlanCoordinates2, map, '#FF0000');
-    addCircle(center, 3000, map);
+    addCircle(center, 4000, map);
     addMarker(center, map);
 }
 
@@ -240,3 +240,5 @@ function addInfoWindow(contentString, marker, map) {
         infowindow.open(map, marker);
     });
 }
+
+$(window).load(initMap);
