@@ -7866,8 +7866,135 @@ Webflow.require('ix2').init({
                 "effectIn": null
             },
             "createdOn": 1558737267995
+            },
+            "e-21": {
+                "id": "e-21",
+                "eventTypeId": "MOUSE_CLICK",
+                "action": {
+                    "id": "",
+                    "actionTypeId": "GENERAL_START_ACTION",
+                    "config": {
+                        "delay": 0,
+                        "easing": "",
+                        "duration": 0,
+                        "actionListId": "a-10",
+                        "affectedElements": {},
+                        "playInReverse": false,
+                        "autoStopEventId": "e-22"
+                    }
+                },
+                "mediaQueries": ["main", "medium", "small", "tiny"],
+                "target": {
+                    "appliesTo": "ELEMENT",
+                    "styleBlockIds": [],
+                    "id": "5cbd60c1fad96c817f9b50d5|1cca1ef1-5b45-a9ea-e8e7-761e2a5828b2"
+                },
+                "config": {
+                    "loop": false,
+                    "scrollOffsetValue": null,
+                    "scrollOffsetUnit": null,
+                    "delay": null,
+                    "direction": null,
+                    "effectIn": null
+                },
+                "createdOn": 1559154775900
+            },
+            "e-23": {
+                "id": "e-23",
+                "eventTypeId": "MOUSE_CLICK",
+                "action": {
+                    "id": "",
+                    "actionTypeId": "GENERAL_START_ACTION",
+                    "config": {
+                        "delay": 0,
+                        "easing": "",
+                        "duration": 0,
+                        "actionListId": "a-11",
+                        "affectedElements": {},
+                        "playInReverse": false,
+                        "autoStopEventId": "e-24"
+                    }
+                },
+                "mediaQueries": ["main", "medium", "small", "tiny"],
+                "target": {
+                    "appliesTo": "ELEMENT",
+                    "styleBlockIds": [],
+                    "id": "5cbd60c1fad96c817f9b50d5|4ef9aac5-28e1-bc9a-1ed2-1a2a45b032ec"
+                },
+                "config": {
+                    "loop": false,
+                    "scrollOffsetValue": null,
+                    "scrollOffsetUnit": null,
+                    "delay": null,
+                    "direction": null,
+                    "effectIn": null
+                },
+                "createdOn": 1559155001034
+            },
+            "e-27": {
+                "id": "e-27",
+                "eventTypeId": "MOUSE_CLICK",
+                "action": {
+                    "id": "",
+                    "actionTypeId": "GENERAL_START_ACTION",
+                    "config": {
+                        "delay": 0,
+                        "easing": "",
+                        "duration": 0,
+                        "actionListId": "a-12",
+                        "affectedElements": {},
+                        "playInReverse": false,
+                        "autoStopEventId": "e-28"
+                    }
+                },
+                "mediaQueries": ["main", "medium", "small", "tiny"],
+                "target": {
+                    "appliesTo": "ELEMENT",
+                    "styleBlockIds": [],
+                    "id": "5cbd60c1fad96c817f9b50d5|53a79810-bc71-99da-71b4-16593c3ca046"
+                },
+                "config": {
+                    "loop": false,
+                    "scrollOffsetValue": null,
+                    "scrollOffsetUnit": null,
+                    "delay": null,
+                    "direction": null,
+                    "effectIn": null
+                },
+                "createdOn": 1559162796041
+            },
+            "e-28": {
+                "id": "e-28",
+                "eventTypeId": "MOUSE_SECOND_CLICK",
+                "action": {
+                    "id": "",
+                    "actionTypeId": "GENERAL_START_ACTION",
+                    "config": {
+                        "delay": 0,
+                        "easing": "",
+                        "duration": 0,
+                        "actionListId": "a-13",
+                        "affectedElements": {},
+                        "playInReverse": false,
+                        "autoStopEventId": "e-27"
         }
-
+                },
+                "mediaQueries": ["main", "medium", "small", "tiny"],
+                "target": {
+                    "appliesTo": "ELEMENT",
+                    "styleBlockIds": [],
+                    "id": "5cbd60c1fad96c817f9b50d5|53a79810-bc71-99da-71b4-16593c3ca046"
+                },
+                "config": {
+                    "loop": false,
+                    "scrollOffsetValue": null,
+                    "scrollOffsetUnit": null,
+                    "delay": null,
+                    "direction": null,
+                    "effectIn": null
+                },
+                "createdOn": 1559162796042
+            }
     },
     "actionLists": {
         "a": {
@@ -8712,6 +8839,295 @@ Webflow.require('ix2').init({
                 }]
             }],
             "createdOn": 1558738317726
+            },
+            "a-10": {
+                "id": "a-10",
+                "title": "No Car Switch",
+                "actionItemGroups": [{
+                    "actionItems": [{
+                        "id": "a-10-n",
+                        "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 0,
+                            "globalSwatchId": "a09eb4d4",
+                            "target": {
+                                "useEventTarget": true,
+                                "id": "5cbd60c1fad96c817f9b50d5|1cca1ef1-5b45-a9ea-e8e7-761e2a5828b2"
+                            },
+                            "rValue": 200,
+                            "gValue": 216,
+                            "bValue": 255,
+                            "aValue": 1
+                        }
+                    }, {
+                        "id": "a-10-n-3",
+                        "actionTypeId": "STYLE_TEXT_COLOR",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 0,
+                            "globalSwatchId": "d0e7fbba",
+                            "target": {
+                                "useEventTarget": true,
+                                "id": "5cbd60c1fad96c817f9b50d5|1cca1ef1-5b45-a9ea-e8e7-761e2a5828b2"
+                            },
+                            "rValue": 34,
+                            "gValue": 96,
+                            "bValue": 255,
+                            "aValue": 1
+                        }
+                    }, {
+                        "id": "a-10-n-2",
+                        "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 0,
+                            "target": {
+                                "useEventTarget": "SIBLINGS",
+                                "selector": ".switch-text.switch-selected",
+                                "selectorGuids": ["fee30768-d962-bcc7-ee22-6c7ce8b4e3b8", "c9ec38fe-9595-1b86-1b23-f94fe5505f9a"]
+                            },
+                            "rValue": 250,
+                            "gValue": 250,
+                            "bValue": 250,
+                            "aValue": 1
+                        }
+                    }, {
+                        "id": "a-10-n-4",
+                        "actionTypeId": "STYLE_TEXT_COLOR",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 0,
+                            "globalSwatchId": "f714d02d",
+                            "target": {
+                                "useEventTarget": "SIBLINGS",
+                                "selector": ".switch-text.switch-selected",
+                                "selectorGuids": ["fee30768-d962-bcc7-ee22-6c7ce8b4e3b8", "c9ec38fe-9595-1b86-1b23-f94fe5505f9a"]
+                            },
+                            "rValue": 114,
+                            "gValue": 114,
+                            "bValue": 114,
+                            "aValue": 1
+                        }
+                    }]
+                }],
+                "createdOn": 1559154784757,
+                "useFirstGroupAsInitialState": false
+            },
+            "a-11": {
+                "id": "a-11",
+                "title": "Car Switch",
+                "actionItemGroups": [{
+                    "actionItems": [{
+                        "id": "a-11-n",
+                        "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 0,
+                            "globalSwatchId": "a09eb4d4",
+                            "target": {
+                                "useEventTarget": true,
+                                "id": "5cbd60c1fad96c817f9b50d5|4ef9aac5-28e1-bc9a-1ed2-1a2a45b032ec"
+                            },
+                            "rValue": 200,
+                            "gValue": 216,
+                            "bValue": 255,
+                            "aValue": 1
+                        }
+                    }, {
+                        "id": "a-11-n-3",
+                        "actionTypeId": "STYLE_TEXT_COLOR",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 0,
+                            "globalSwatchId": "d0e7fbba",
+                            "target": {
+                                "useEventTarget": true,
+                                "id": "5cbd60c1fad96c817f9b50d5|4ef9aac5-28e1-bc9a-1ed2-1a2a45b032ec"
+                            },
+                            "rValue": 34,
+                            "gValue": 96,
+                            "bValue": 255,
+                            "aValue": 1
+                        }
+                    }, {
+                        "id": "a-11-n-2",
+                        "actionTypeId": "STYLE_BACKGROUND_COLOR",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 0,
+                            "target": {
+                                "useEventTarget": "SIBLINGS",
+                                "selector": ".switch-text",
+                                "selectorGuids": ["fee30768-d962-bcc7-ee22-6c7ce8b4e3b8"]
+                            },
+                            "rValue": 250,
+                            "gValue": 250,
+                            "bValue": 250,
+                            "aValue": 1
+                        }
+                    }, {
+                        "id": "a-11-n-4",
+                        "actionTypeId": "STYLE_TEXT_COLOR",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 0,
+                            "globalSwatchId": "f714d02d",
+                            "target": {
+                                "useEventTarget": "SIBLINGS",
+                                "selector": ".switch-text",
+                                "selectorGuids": ["fee30768-d962-bcc7-ee22-6c7ce8b4e3b8"]
+                            },
+                            "rValue": 114,
+                            "gValue": 114,
+                            "bValue": 114,
+                            "aValue": 1
+                        }
+                    }]
+                }],
+                "createdOn": 1559155004773,
+                "useFirstGroupAsInitialState": false
+            },
+            "a-12": {
+                "id": "a-12",
+                "title": "Show turn by turn",
+                "actionItemGroups": [{
+                    "actionItems": [{
+                        "id": "a-12-n-4",
+                        "actionTypeId": "TRANSFORM_SCALE",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 500,
+                            "target": {
+                                "useEventTarget": "SIBLINGS",
+                                "id": "5cbd60c1fad96c817f9b50d5|c88d855c-ff88-2d9c-4641-9ab8f0f26faa"
+                            },
+                            "yValue": 0,
+                            "locked": false
+                        }
+                    }, {
+                        "id": "a-12-n-7",
+                        "actionTypeId": "GENERAL_DISPLAY",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 0,
+                            "value": "none",
+                            "target": {
+                                "useEventTarget": "SIBLINGS",
+                                "id": "5cbd60c1fad96c817f9b50d5|c88d855c-ff88-2d9c-4641-9ab8f0f26faa"
+                            }
+                        }
+                    }]
+                }, {
+                    "actionItems": [{
+                        "id": "a-12-n-3",
+                        "actionTypeId": "TRANSFORM_ROTATE",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 200,
+                            "target": {
+                                "useEventTarget": "CHILDREN",
+                                "id": "5cbd60c1fad96c817f9b50d5|53a79810-bc71-99da-71b4-16593c3ca04a"
+                            },
+                            "zValue": 180,
+                            "xUnit": "DEG",
+                            "yUnit": "DEG",
+                            "zUnit": "DEG"
+                        }
+                    }, {
+                        "id": "a-12-n-6",
+                        "actionTypeId": "TRANSFORM_SCALE",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 200,
+                            "target": {
+                                "useEventTarget": "SIBLINGS",
+                                "id": "5cbd60c1fad96c817f9b50d5|c88d855c-ff88-2d9c-4641-9ab8f0f26faa"
+                            },
+                            "yValue": 1,
+                            "locked": false
+                        }
+                    }, {
+                        "id": "a-12-n-5",
+                        "actionTypeId": "GENERAL_DISPLAY",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 0,
+                            "value": "block",
+                            "target": {
+                                "useEventTarget": "SIBLINGS",
+                                "id": "5cbd60c1fad96c817f9b50d5|c88d855c-ff88-2d9c-4641-9ab8f0f26faa"
+                            }
+                        }
+                    }]
+                }],
+                "createdOn": 1559160371469,
+                "useFirstGroupAsInitialState": true
+            },
+            "a-13": {
+                "id": "a-13",
+                "title": "Hide turn by turn",
+                "actionItemGroups": [{
+                    "actionItems": [{
+                        "id": "a-13-n-6",
+                        "actionTypeId": "TRANSFORM_ROTATE",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 200,
+                            "target": {
+                                "useEventTarget": "CHILDREN",
+                                "id": "5cbd60c1fad96c817f9b50d5|53a79810-bc71-99da-71b4-16593c3ca04a"
+                            },
+                            "zValue": 0,
+                            "xUnit": "DEG",
+                            "yUnit": "DEG",
+                            "zUnit": "DEG"
+                        }
+                    }, {
+                        "id": "a-13-n-3",
+                        "actionTypeId": "TRANSFORM_SCALE",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 200,
+                            "target": {
+                                "useEventTarget": "SIBLINGS",
+                                "id": "5cbd60c1fad96c817f9b50d5|c88d855c-ff88-2d9c-4641-9ab8f0f26faa"
+                            },
+                            "yValue": 0,
+                            "locked": false
+                        }
+                    }, {
+                        "id": "a-13-n-4",
+                        "actionTypeId": "GENERAL_DISPLAY",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 0,
+                            "value": "none",
+                            "target": {
+                                "useEventTarget": "SIBLINGS",
+                                "id": "5cbd60c1fad96c817f9b50d5|c88d855c-ff88-2d9c-4641-9ab8f0f26faa"
+                            }
+                        }
+                    }]
+                }],
+                "createdOn": 1559161078505,
+                "useFirstGroupAsInitialState": false
         }
     },
     "site": {

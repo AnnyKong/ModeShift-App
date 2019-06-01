@@ -199,12 +199,11 @@
               <div class="b-square"></div>
             </div>
             <div class="adress-form-block w-form">
-              <form class="form" data-name="Address Input" id="wf-form-Address-Input" name="wf-form-Address-Input">
-                <input class="address beginning w-input" data-name="Current Location" id="Current-Location" maxlength="256"
-                       name="Current-Location" placeholder="Current Location" type="text">
-                <input class="address w-input" data-name="End Destination" id="End-Destination" maxlength="256"
-                       name="End-Destination" placeholder="Enter destination" required="" type="text"/>
-                </input>
+              <form id="wf-form-Address-Input" name="wf-form-Address-Input" data-name="Address Input" class="form">
+                <input type="text" class="address w-input" maxlength="256" name="Current-Location"
+                       data-name="Current Location" placeholder="Downtown Seattle" id="Current-Location">
+                <input type="text" class="address w-input" maxlength="256" name="End-Destination"
+                       data-name="End Destination" placeholder="Bellevue College" id="End-Destination" required="">
               </form>
               <div class="w-form-done">
                 <div>Thank you! Your submission has been received!</div>
@@ -216,60 +215,67 @@
           </div>
           <div class="switch-and-search">
             <div class="switch">
-              <div class="switch-text switch-selected">CAR</div>
-              <div class="switch-text">NO CAR</div>
+              <div id="yes-car" clicked='false' class="switch-text switch-selected" data-w-id="4ef9aac5-28e1-bc9a-1ed2-1a2a45b032ec">
+                CAR
+              </div>
+              <div id="no-car" clicked='false' class="switch-text" data-w-id="1cca1ef1-5b45-a9ea-e8e7-761e2a5828b2" >
+                NO CAR
+              </div>
             </div>
             <!-- to Route section-->
-            <a data-w-id="4feb02e8-a238-1d4f-926f-1156191fab1e" href="#" class="search-button w-button" href="#">SEARCH</a>
+            <a id="search-btn" clicked='false' class="search-button w-button" data-w-id="4feb02e8-a238-1d4f-926f-1156191fab1e"
+                href="#" >
+              SEARCH
+            </a>
           </div>
         </div>
         <div class="empty-state-text" data-w-id="d1d79704-12fa-9cf8-6f13-64c141f0b07e" >
-          Enter the address to plan your route
+          Enter your address to plan your trip around the incident
         </div>
         <div class="announcement" data-w-id="05d575aa-7bfd-d4fc-0507-399c73f59cd5" >
-          <img src="images/Information.png" width="16" height="16" alt="" class="image-6">
+          <img src="images/Information.png" width="16" height="16" alt="" class="information-icon">
           <div class="information-text">
-            Due to the incident, it’s recommended that you leave your car or delay your departure time if possible.
+            Due to heavy traffic, it’s recommended that you leave your car or delay your departure time.
             The 2 hour restriction on street parking in your area will not be enforced.
           </div>
         </div>
         <div class="routes" data-w-id="f35cfbcd-ecbc-50e0-b08e-599666df9bc4" >
           <div class="time-indicator">
             <div class="time-indicator-text">1:00 PM</div>
-            <div class="time-indicator-text">1:30 PM</div>
             <div class="time-indicator-text">2:00 PM</div>
-            <div class="time-indicator-text">2:30 PM</div>
             <div class="time-indicator-text">3:00 PM</div>
+            <div class="time-indicator-text">4:00 PM</div>
+            <div class="time-indicator-text">5:00 PM</div>
           </div>
           <div class="recommend-route">
             <div class="route-text">Recommended route</div>
-            <a title="show more">
-            <div class="route-item" data-w-id="c32ea523-7c68-4c91-16d1-fd999c38735f" >
-              <div class="route">
-                <div class="transport-block car-block">
-                  <img src="images/Car-Icon.png" width="17" alt="" class="car-icon" title="hover text">
+            <a id="show-more" title="show more">
+              <div class="route-item" data-w-id="c32ea523-7c68-4c91-16d1-fd999c38735f" >
+                <div class="route">
+                  <div class="transport-block car-block">
+                    <img src="images/Car-Icon.png" width="17" alt="" class="car-icon" >
+                  </div>
+                  <div class="transport-block walk-block">
+                    <img src="images/Walk-icon.png" height="16" alt="" class="walk-icon">
+                  </div>
+                  <div class="transport-block bus-block">
+                    <img src="images/Bus-Icon.png" width="15.5" alt="" class="bus-icon">
+                    <div class="bus-number">880</div>
+                  </div>
+                  <div class="transport-block walk-block">
+                    <img src="images/Walk-icon.png" height="16" alt="" class="walk-icon">
+                  </div>
                 </div>
-                <div class="transport-block walk-block">
-                  <img src="images/Walk-icon.png" height="16" alt="" class="walk-icon">
-                </div>
-                <div class="transport-block bus-block">
-                  <img src="images/Bus-Icon.png" width="15.5" alt="" class="bus-icon">
-                  <div class="bus-number">880</div>
-                </div>
-                <div class="transport-block walk-block">
-                  <img src="images/Walk-icon.png" height="16" alt="" class="walk-icon">
+                <!--<p id="recommend-route-show-more">Show More</p>-->
+                <div class="departure-and-arrival">
+                  <div class="departure-and-arrival-text">Leave in
+                    <strong>3 mins</strong>
+                  </div>
+                  <div class="departure-and-arrival-text">Arrival
+            <strong>3:14 PM</strong>
+                  </div>
                 </div>
               </div>
-              <!--<p id="recommend-route-show-more">Show More</p>-->
-              <div class="departure-and-arrival">
-                <div class="departure-and-arrival-text">Leave in
-                  <strong>3 mins</strong>
-                </div>
-                <div class="departure-and-arrival-text">Arrival
-                  <strong>2:14 PM</strong>
-                </div>
-              </div>
-            </div>
             </a>
           </div>
           <div class="other-routes">
@@ -302,8 +308,12 @@
                 </div>
               </div>
               <div class="departure-and-arrival">
-                <div class="departure-and-arrival-text">Leave in <strong>1 hr 10 mins</strong></div>
-                <div class="departure-and-arrival-text">Arrival <strong>2:57 PM</strong></div>
+                <div class="departure-and-arrival-text">Leave in
+                  <strong>1 hr 10 mins</strong>
+                </div>
+                <div class="departure-and-arrival-text">Arrival
+            <strong>4:57 PM</strong>
+                </div>
               </div>
             </div>
             <div class="route-item">
@@ -318,12 +328,21 @@
                   <strong>3 mins</strong>
                 </div>
                 <div class="departure-and-arrival-text">Arrival
-                  <strong>2:45 PM</strong>
+            <strong>4:35 PM</strong>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+            <div class="route-text">Extend Parking</div>
+            <div class="extend-parking">
+              We recommended that you extend your parking to avoid getting stuck in gridlock.
+              If you are using a private lot, SpotHero will help you extend your parking.
+            </div>
+            <a id="spothero-link" style="" target="_blank"
+               href="https://spothero.com/seattle/downtown-seattle-parking">
+              <div class="direction-link extend-parking-link">
+                OPEN SPOTHERO
+              </div>
+            </a>
       </div>
     </section>
     <!-- Route section under Plan Your Route-->
@@ -358,8 +377,11 @@
               </div>
             </div>
             <div class="departure-and-arrival">
-              <div class="departure-and-arrival-text">Leave in <strong>3 mins</strong></div>
-              <div class="departure-and-arrival-text">Arrival <strong>2:14 PM</strong></div>
+              <div class="departure-and-arrival-text">Leave in
+                <strong>3 mins</strong>
+              </div>
+            <div class="departure-and-arrival-text">Arrival
+              <strong>3:14 PM</strong></div>
             </div>
           </div>
         </div>
@@ -378,20 +400,64 @@
                 <div class="direction-line"></div>
               </div>
               <div class="direction-text">
-                <strong>Current location</strong>
+                <strong>Downtown Seattle</strong>
               </div>
             </div>
             <div class="direction-time-text">12:33 PM
               <strong></strong>
             </div>
           </div>
-          <div class="address-block">
-            <div class="direction-plus-circle">
-              <div class="line-block">
+          <div class="mid-direction-block">
+            <div data-w-id="c88d855c-ff88-2d9c-4641-9ab8f0f26faa"
+                 style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+               -moz-transform:translate3d(0, 0, 0) scale3d(1, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+               -ms-transform:translate3d(0, 0, 0) scale3d(1, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+               transform:translate3d(0, 0, 0) scale3d(1, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+               display:none" class="turn-by-turn-directions">
+              <div class="direction-plus-circle">
+                <div class="stop-circle-and-line mid-stop-block">
+                  <div class="stop-circle mid-stop-circle"></div>
+                  <div class="direction-line"></div>
+                </div>
+                <div class="direction-text mid-direction-text">Head northwest toward Madison St</div>
+              </div>
+              <div class="direction-plus-circle">
+                <div class="stop-circle-and-line mid-stop-block">
+                  <div class="stop-circle mid-stop-circle"></div>
+                  <div class="direction-line"></div>
+                </div>
+                <div class="direction-text mid-direction-text">Turn left onto Madiston St</div>
+              </div>
+              <div class="direction-plus-circle">
+                <div class="stop-circle-and-line mid-stop-block">
+                  <div class="stop-circle mid-stop-circle"></div>
+                  <div class="direction-line"></div>
+                </div>
+                <div class="direction-text mid-direction-text">Turn right onto 1st Ave</div>
+              </div>
+              <div class="direction-plus-circle">
+                <div class="stop-circle-and-line mid-stop-block">
+                  <div class="stop-circle mid-stop-circle"></div>
+                  <div class="direction-line"></div>
+                </div>
+                <div class="direction-text mid-direction-text">Turn right onto University St</div>
+              </div>
+              <div class="direction-plus-circle">
+                <div class="stop-circle-and-line mid-stop-block">
+                  <div class="stop-circle mid-stop-circle"></div>
+                  <div class="direction-line"></div>
+                </div>
+                <div class="direction-text mid-direction-text">Use the left 2 lanes to turn left onto 6th Ave</div>
+              </div>
+            </div>
+            <div data-w-id="53a79810-bc71-99da-71b4-16593c3ca046" class="direction-plus-circle turn-by-turn-hidden">
+              <div class="line-block grey-line">
                 <div class="direction-line"></div>
               </div>
               <div class="turn-by-turn-block">
-                <img src="images/more-icon.svg" width="12" height="8" alt="" class="tun-by-turn-icon">
+                <img src="images/more-icon.svg" width="12" height="8"
+                     data-w-id="53a79810-bc71-99da-71b4-16593c3ca04a"
+                     alt="" class="tun-by-turn-icon">
                 <div class="turn-by-turn-text">Turn by turn navigation</div>
               </div>
             </div>
@@ -401,15 +467,20 @@
               <div class="stop-circle-and-line">
                 <div class="stop-circle"></div>
               </div>
-              <div class="direction-text last-direction">Private parking at <strong>1913 4th Ave. -
-                Garage</strong></div>
+              <div class="direction-text last-direction">Private parking at
+              <strong >1465 6th Ave. - US Bank Centre Garage</strong>
+              </div>
             </div>
             <div class="direction-time-text">12:57 PM
               <strong></strong>
             </div>
           </div>
-          <a id="google-map-link" style="" target="_blank"
-             href="https://www.google.com/maps/dir/Downtown+Seattle,+Seattle,+WA/Bellevue+College,+Landerholm+Circle+Southeast,+Bellevue,+WA/@47.5920729,-122.308385,12z/data=!4m14!4m13!1m5!1m1!1s0x54906ab6b122572d:0x4cc65f51348e1d43!2m2!1d-122.3343709!2d47.6050242!1m5!1m1!1s0x54906c1e28d06265:0xbb6915939ab3de70!2m2!1d-122.1482167!2d47.5843604!3e0">
+          <a id="google-map-link0" style="" target="_blank"
+             href="https://www.google.com/maps/dir/Downtown+Seattle,+Seattle,+WA/U.S.
+             +Bank+Centre,+1420+5th+Ave,+Seattle,+WA+98101/@47.6075586,-122.339445,
+             16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54906ab6b122572d:0x4cc65f51348e
+             1d43!2m2!1d-122.3343709!2d47.6050242!1m5!1m1!1s0x54906ab48a630c39:0xc167
+             d1611231e41e!2m2!1d-122.334145!2d47.6103222!3e0">
             <div class="direction-link" >
               OPEN GOOGLE MAPS
             </div>
@@ -433,17 +504,17 @@
                 <div class="stop-circle blue"></div>
               </div>
               <div class="direction-text last-direction">Use private parking on at
-                <strong>1913 4th Ave. -Garage</strong></div>
+              <strong >1465 6th Ave. - US Bank Centre Garage</strong>
+              </div>
             </div>
             <div class="direction-time-text">12:57 PM</div>
           </div>
-          <a id="spothero-link" style="" target="_blank"
-             href="https://spothero.com/seattle/downtown-seattle-parking">
-            <div class="direction-link">PAY FOR PARKING</div>
-          </a>
-          <div class="direction-fee-text">
-            $27 overnight fee
-          </div>
+          <a id="spothero-link2" style="" target="_blank"
+             href="https://spothero.com/spot-details/8232">
+            <div class="direction-link">PAY FOR PARKING
+            </div></a>
+          <div class="direction-fee-text">$27 for one day</div>
+          <div class="app-information">Pick up vehicle before 1 PM tomorrow</div>
         </div>
         <div class="dot-dot-dot">
           <div class="dot-navigation"></div>
@@ -463,7 +534,9 @@
                 <div class="stop-circle grey"></div>
                 <div class="direction-line grey-line"></div>
               </div>
-              <div class="direction-text"><strong>Current location</strong></div>
+              <div class="direction-text">
+                <strong id="walking-txt1">1465 6th Ave. - US Bank Centre Garage</strong>
+              </div>
             </div>
             <div class="direction-time-text">1:07 PM
               <strong></strong>
@@ -486,14 +559,18 @@
               <div class="stop-circle-and-line">
                 <div class="stop-circle grey"></div>
               </div>
-              <div class="direction-text last-direction">Private parking at
-                <strong>1913 4th Ave. -Garage</strong>
+            <div class="direction-text last-direction">
+              <strong>Pine St. and 9th Ave</strong>
               </div>
             </div>
             <div class="direction-time-text">1:22 PM<strong></strong></div>
           </div>
-          <a id="google-map-link" style="" target="_blank"
-             href="https://www.google.com/maps/dir/1913+4th+Ave,+Seattle,+WA+98101/Bellevue+College,+Landerholm+Circle+Southeast,+Bellevue,+WA/@47.6067913,-122.3077028,12z/am=t/data=!4m14!4m13!1m5!1m1!1s0x5490154ca63ec37f:0xb186f95a0239cf09!2m2!1d-122.3394265!2d47.6124068!1m5!1m1!1s0x54906c1e28d06265:0xbb6915939ab3de70!2m2!1d-122.1482167!2d47.5843604!3e3">
+          <a id="google-map-link1" style="" target="_blank"
+             href="https://www.google.com/maps/dir/U.S.+Bank+Centre,+1420+5th+Ave,
+             +Seattle,+WA+98101/Pine+St+%26+9th+Ave,+Seattle,+WA+98101/@47.6118993,
+             -122.3355064,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54906ab48a630c39:0
+             xc167d1611231e41e!2m2!1d-122.334145!2d47.6103222!1m5!1m1!1s0x54906ab54fb
+             5f9f3:0x35f93e4a72f02535!2m2!1d-122.332138!2d47.6134148!3e2">
             <div class="direction-link" >
               OPEN GOOGLE MAPS
             </div>
@@ -517,7 +594,9 @@
                 <div class="stop-circle orange"></div>
                 <div class="direction-line orange-line"></div>
               </div>
-              <div class="direction-text"><strong>University St Station Bay C</strong></div>
+              <div class="direction-text">
+              <strong>Pine St. and 9th Ave</strong>
+              </div>
             </div>
             <div class="direction-time-text">1:22 PM<strong></strong></div>
           </div>
@@ -538,19 +617,27 @@
                 <div class="stop-circle orange"></div>
               </div>
               <div class="direction-text last-direction">
-                <strong>NE 45th St / 7th Ave NE</strong>
+                <strong>148th Ave SE and SE 22nd St.</strong>
               </div>
             </div>
-            <div class="direction-time-text">2:30 PM<strong></strong></div>
+          <div class="direction-time-text">3:00 PM
+              <strong></strong>
+            </div>
           </div>
           <a id="transitgo-link" style="" target="_blank"
              href="https://kingcounty.gov/depts/transportation/metro/fares-orca/transit-go-ticket.aspx">
-            <div class="direction-link">
-              PAY FOR BUS FARE
-            </div>
-          </a>
+            <div class="direction-link">PAY FOR BUS FARE</div></a>
           <div class="direction-fee-text">$2.75 per person</div>
-          <div class="download-transitgo">Requires download of TransitGo app</div>
+          <div class="app-information">Requires TransitGo app</div>
+          <a id="google-map-link2" style="" target="_blank"
+             href="https://www.google.com/maps/dir/Pine+St+%26+9th+Ave,+Seattle,
+             +WA+98101/SE+22nd+St+%26+148th+Ave+SE,+Bellevue,+WA+98007/@47.6137521,
+             -122.3099077,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54906ab54fb5f9f3:
+             0x35f93e4a72f02535!2m2!1d-122.332138!2d47.6134148!1m5!1m1!1s0x54906c215
+             a4da7bb:0xd282b0d8e9f096ec!2m2!1d-122.1427464!2d47.5908527!3e3">
+            <div class="direction-link" >
+              OPEN GOOGLE MAPS
+            </div></a>
         </div>
         <div class="dot-dot-dot">
           <div class="dot-navigation"></div>
@@ -570,9 +657,13 @@
                 <div class="stop-circle grey"></div>
                 <div class="direction-line grey-line"></div>
               </div>
-              <div class="direction-text"><strong>NE 45th St / 7th Ave NE</strong></div>
+            <div class="direction-text">
+              <strong>148th Ave SE and SE 22nd St.</strong>
             </div>
-            <div class="direction-time-text">2:30 PM<strong></strong></div>
+            </div>
+          <div class="direction-time-text">3:00 PM
+            <strong></strong>
+          </div>
           </div>
           <div class="address-block">
             <div class="direction-plus-circle">
@@ -591,12 +682,20 @@
               <div class="stop-circle-and-line">
                 <div class="stop-circle grey"></div>
               </div>
-              <div class="direction-text last-direction"><strong>3482 Newark St.</strong></div>
+            <div class="direction-text last-direction">
+              <strong>Bellevue College</strong>
             </div>
-            <div class="direction-time-text">2:44 PM<strong></strong></div>
+            </div>
+            <div class="direction-time-text">3:14 PM
+              <strong></strong>
+            </div>
           </div>
-          <a id="google-map-link" style="" target="_blank"
-             href="https://www.google.com/maps/dir/1913+4th+Ave,+Seattle,+WA+98101/Bellevue+College,+Landerholm+Circle+Southeast,+Bellevue,+WA/@47.6067913,-122.3077028,12z/am=t/data=!4m14!4m13!1m5!1m1!1s0x5490154ca63ec37f:0xb186f95a0239cf09!2m2!1d-122.3394265!2d47.6124068!1m5!1m1!1s0x54906c1e28d06265:0xbb6915939ab3de70!2m2!1d-122.1482167!2d47.5843604!3e3">
+          <a id="google-map-link3" style="" target="_blank"
+             href="https://www.google.com/maps/dir/SE+22nd+St+%26+148th+Ave+SE,+
+             Bellevue,+WA+98007/Bellevue+College,+Landerholm+Circle+Southeast,+Bellevue,
+             +WA/@47.5876065,-122.1497724,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54906
+             c215a4da7bb:0xd282b0d8e9f096ec!2m2!1d-122.1427464!2d47.5908527!1m5!1m1!1s0
+             x54906c1e28d06265:0xbb6915939ab3de70!2m2!1d-122.1482167!2d47.5843604!3e2">
             <div class="direction-link" >
               OPEN GOOGLE MAPS
             </div>
@@ -618,15 +717,18 @@
         </div>
       </div>
     </div>
-    <!-- Notice Message -->
-    <!--<div class="header-desktop">-->
+     <!--Notice Message-->
+    <div class="header-desktop" style="margin-bottom: 0px;">
       <!--<span class="text-span-desktop">-->
       <!--</span>-->
-      <!--<strong style="color:red">-->
-        <!--Please use mobile for access.-->
-      <!--</strong>-->
-    <!--</div>-->
-    <!-- Desktop Content-->
+      <strong style="color:red; font-size: 22px;">
+        This is only for demo desktop web design purposes.
+      </strong><br/><br>
+      <strong style="color:red; font-size: 22px;">
+        Please use mobile for clickable access.
+      </strong>
+    </div>
+     <!--Desktop Content-->
     <div class="header-desktop">
       <span class="text-span-desktop">LIVE</span>
       I-90 Tanker Crash (Demo)
@@ -686,9 +788,7 @@
   </div>
 
   <!-- Required scripts -->
-  <script crossorigin="anonymous" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-          src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript">
-  </script>
+  <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!--<script src = "//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>-->
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
