@@ -447,6 +447,8 @@ iframe {
     background-color: red;
     font-size: 13px;
     line-height: 28px;
+    padding-left: 2px;
+    padding-right: 2px;
   }
   .plan-your-route {
     display: none;
